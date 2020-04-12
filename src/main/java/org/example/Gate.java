@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Gate {
 
-   TicketType ticketType = TicketType.randomTicket();
+//   TicketType ticketType = TicketType.randomTicket();
 //   TicketType ticketType2 = TicketType.values()[1];
 //   TicketType ticketType3 = TicketType.values()[2];
 //   TicketType ticketType4 = TicketType.values()[3];

@@ -3,11 +3,11 @@ package org.example;
 import java.util.Random;
 
 public enum TicketType {
-   FULL ("Full",0),
-   VIP ("VIP", 1),
-   FREE_PASS ("Free-Pass", 2),
-   ONE_DAY("One-Day", 3),
-   ONE_DAY_VIP("One-Day-VIP", 4);
+   FULL("Full"),
+   VIP("VIP"),
+   FREE_PASS("Free-Pass"),
+   ONE_DAY("One-Day"),
+   ONE_DAY_VIP("One-Day-VIP");
 
 
    public static TicketType randomTicket () {
@@ -19,7 +19,7 @@ public enum TicketType {
    private final String name;
 
 
-   TicketType (String name, int i) {
+   TicketType (String name) {
       this.name = name;
    }
 }
